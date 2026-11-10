@@ -15,7 +15,7 @@ Benchmarks Llama-3-8B-Instruct inference at 16-bit precision against 4-bit AWQ q
 
 Each prompt runs several times after warm-up, and the median is reported.
 
-##Architecture 
+## Architecture 
 ```mermaid
 flowchart TD
     A["CLI args<br/>--models, --mmlu, --mmlu-limit"] --> B["GPU check<br/>count, memory, AWQ kernels"]
