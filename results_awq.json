@@ -1,0 +1,17 @@
+{
+  "gpu": "2 x Tesla T4",
+  "gpu_mem_gb": 29.1243896484375,
+  "models": {
+    "awq4": {
+      "model_id": "casperhansen/llama-3-8b-instruct-awq",
+      "weights_vram_gb": 5.3344807624816895,
+      "ttft_ms_median": 275.4348809999101,
+      "tokens_per_s_median": 4.105228910351727,
+      "peak_vram_gb": 5.386787414550781,
+      "runs": 15,
+      "mmlu_accuracy": 0.65,
+      "mmlu_questions": 1140,
+      "mmlu_shots": 5
+    }
+  }
+}
