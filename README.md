@@ -13,7 +13,7 @@ Hardware: Kaggle, 2 × Tesla T4 (32 GB total). MMLU: 5-shot, 1,140 questions (th
 | fp16 | 16.1 GB | 16.2 GB | 68.8% | 88 ms | 14.3 tokens/s |
 | AWQ 4-bit | 5.7 GB | 5.8 GB | 64.9% | – | – |
 
-Raw output: [`results/results_fp16.json`](results/results_fp16.json), [`results/results_awq.json`](results/results_awq.json)
+Raw output: [`results_fp16.json`](results_fp16.json), [`results_awq.json`](results_awq.json)
 
 Notes:
 - VRAM is shown in GB (10⁹ bytes); `results.json` stores GiB (1024³ bytes).
