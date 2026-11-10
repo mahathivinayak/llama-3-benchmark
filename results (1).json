@@ -1,0 +1,17 @@
+{
+  "gpu": "2 x Tesla T4",
+  "gpu_mem_gb": 29.1243896484375,
+  "models": {
+    "fp16": {
+      "model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "weights_vram_gb": 14.957528114318848,
+      "ttft_ms_median": 88.20799499994791,
+      "tokens_per_s_median": 14.290754559590827,
+      "peak_vram_gb": 15.04128885269165,
+      "runs": 15,
+      "mmlu_accuracy": 0.6877192982456141,
+      "mmlu_questions": 1140,
+      "mmlu_shots": 5
+    }
+  }
+}
